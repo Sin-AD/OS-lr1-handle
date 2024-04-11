@@ -28,7 +28,7 @@ int main() {
         ReadFile(file, text, 128, &actlen, NULL);
         WriteFile(hout, text, 10, NULL, NULL);
     }
-else{
+else {
         WriteFile(hout, "Вы ввели: ", 10, NULL, NULL);
         WriteFile(hout, text, actlen, NULL, NULL);
        }
